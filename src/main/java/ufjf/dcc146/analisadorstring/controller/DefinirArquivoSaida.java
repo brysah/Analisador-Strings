@@ -12,7 +12,7 @@ import ufjf.dcc146.analisadorstring.model.Arquivo;
  */
 public class DefinirArquivoSaida {
     public DefinirArquivoSaida(String nomeArquivo) throws Exception{
-        File arquivoSaida = new File("output/" + nomeArquivo);
+        File arquivoSaida = new File("../output/" + nomeArquivo);
         arquivoSaida.createNewFile();
         Arquivo aux = new Arquivo();
         aux.setArquivoSaida(nomeArquivo);
