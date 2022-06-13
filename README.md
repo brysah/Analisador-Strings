@@ -20,7 +20,7 @@ Siga estas etapas:
 em que ele se encontra.
 - Instale o maven neste diretório.
 ```
-mvn - install
+mvn install
 ```
 - Mude para a pasta target.
 - Execute o jar com dependências gerado 
