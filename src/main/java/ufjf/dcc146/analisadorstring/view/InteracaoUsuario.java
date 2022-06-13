@@ -88,10 +88,10 @@ public class InteracaoUsuario {
                 case ":l":
                     try{
                         ListarDefinicoes ld = new ListarDefinicoes();
+                        System.out.println("[INFO] - As definicoes de tags foram carregadas");    
                     }catch(IOException e){
                         System.out.println("[ERROR] - " + e.getMessage());
                     }
-                    System.out.println("[INFO] - As definicoes de tags foram carregadas");
                     break;
 
                 case ":q":
@@ -102,10 +102,10 @@ public class InteracaoUsuario {
                 case ":s":
                     try{
                         Salvar s = new Salvar(dados[1]);
+                        System.out.println("[INFO] - As definicoes de tags foram carregadas");
                     }catch(ArrayIndexOutOfBoundsException | IOException e){
                         System.out.println("[ERROR] - " + e.getMessage());
                     }
-                    System.out.println("[INFO] - As definicoes de tags foram carregadas");
                     break;
 
                 default:
