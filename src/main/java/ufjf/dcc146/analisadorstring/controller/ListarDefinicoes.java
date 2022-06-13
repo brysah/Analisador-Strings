@@ -17,8 +17,8 @@ public class ListarDefinicoes {
 
     public ListarDefinicoes() throws IOException {
         Tags aux = new Tags();
-        String nomeArquivo = "definicoesDeTags.txt";
-        File arquivoSaida = new File("output/" + nomeArquivo);
+        String nomeArquivo = "../output/definicoesDeTags.txt";
+        File arquivoSaida = new File(nomeArquivo);
         FileWriter escritor = new FileWriter(arquivoSaida);
         arquivoSaida.createNewFile();
         escritor.write(" ------ Tags ------ \n");
