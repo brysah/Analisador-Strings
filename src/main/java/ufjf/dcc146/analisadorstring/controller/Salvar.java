@@ -17,7 +17,7 @@ public class Salvar {
     public Salvar(String nomeArquivo) throws IOException
     {
         Tags aux = new Tags();
-        File arquivoSaida = new File("..output/"+nomeArquivo);
+        File arquivoSaida = new File("../output/"+nomeArquivo);
         FileWriter escritor = new FileWriter(arquivoSaida);
         arquivoSaida.createNewFile();
         escritor.write(" ------ Tags ------ \n");
