@@ -22,7 +22,7 @@ public class CarregarArquivoDefinicoes {
     public void escreverTagsSaida(List <String[]> listaTagsInvalidas) throws IOException
     {
         Tags aux = new Tags();
-        String nomeArquivo = "output/tagsValidas_Invalidas.txt";
+        String nomeArquivo = "../output/tagsValidas_Invalidas.txt";
         File arquivoSaida = new File(nomeArquivo);
         FileWriter escritor = new FileWriter(arquivoSaida);
         
